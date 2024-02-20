@@ -1,0 +1,210 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: nones;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: • 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 03;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  background: url(/img/fonts.png), lightgray 50% / cover no-repeat;
+}
+.conteiner {
+  max-width: 1121px;
+  margin: 0 auto;
+}
+/* /
+/
+//
+///////Шапка сайта //
+/
+/
+*/
+header {
+  border-bottom: 1px solid rgba(196, 196, 196, 1);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 81px;
+}
+.header-title {
+  display: flex;
+}
+.header-logo {
+  width: 54px;
+  height: 54px;
+}
+.header-tx {
+  color: #fff;
+  font-family: "PT Serif";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 0 20px;
+}
+.header-t {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-contact {
+  display: flex;
+  align-items: center;
+}
+.header-contact {
+  display: flex;
+}
+.tel {
+  display: flex;
+  align-items: center;
+}
+.tel a {
+  margin: 0 0 0 13px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.header-tel {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 33px;
+}
+.mail a {
+  margin: 0 0 0 13px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.header-mail {
+  width: 32px;
+  height: 24px;
+}
+.header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 48px;
+  width: 186px;
+  height: 44px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: inherit;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+/* ///
+
+/
+/
+/
+Блог герой ///
+/
+ */
+.menu ul {
+  display: flex;
+  margin: 20px 0 0 0;
+}
+.menu ul li:not(last-child) {
+  margin: 0 32px 0 0;
+}
+.menu-nav {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
