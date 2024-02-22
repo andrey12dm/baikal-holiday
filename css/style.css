@@ -78,7 +78,9 @@ h6 {
   font-weight: 400;
 }
 body {
-  background: url(/img/fonts.png), lightgray 50% / cover no-repeat;
+  background: url(/img/fonts-header.png) lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .conteiner {
   max-width: 1121px;
@@ -207,4 +209,45 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+h1 {
+  color: #fff;
+  font-family: "PT Serif";
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  width: 799px;
+  height: 262px;
+  margin: 120px 0 33px 0;
+}
+.tours {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: 562px;
+  height: 59px;
+}
+.choose-tour {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: inherit;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  width: 250px;
+  height: 60px;
+  margin: 91px 0 0 0;
+}
+.arrow {
+  width: 40px;
+  height: 40px;
 }
